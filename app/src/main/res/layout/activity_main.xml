@@ -13,17 +13,30 @@
         android:layout_height="wrap_content"
         android:text="@string/name_text"
         android:textAlignment="center"
+<<<<<<< HEAD
+=======
+        android:textStyle="normal"
+>>>>>>> 493b0b8 (Initial commit)
         style="@style/NameStyle" />
 
     <EditText
         android:id="@+id/nickname_edit"
         style="@style/NameStyle"
         android:layout_width="match_parent"
+<<<<<<< HEAD
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/what_is_your_nickname"
         android:inputType="text|textPersonName"
         android:textAlignment="center" />
+=======
+        android:layout_height="56dp"
+        android:hint="@string/what_is_your_nickname"
+        android:inputType="text|textPersonName"
+        android:textAlignment="center"
+        android:backgroundTint="@android:color/transparent"
+        android:textStyle="normal" />
+>>>>>>> 493b0b8 (Initial commit)
 
     <Button
         android:id="@+id/done_button"
@@ -41,7 +54,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
+<<<<<<< HEAD
         android:visibility="gone" />
+=======
+        android:visibility="gone"
+        android:textStyle="normal"
+        />
+>>>>>>> 493b0b8 (Initial commit)
 
     <ImageView
         android:id="@+id/star_image"

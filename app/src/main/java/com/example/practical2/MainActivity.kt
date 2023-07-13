@@ -29,12 +29,16 @@ class MainActivity : AppCompatActivity() {
         editText.visibility = View.GONE
         view.visibility = View.GONE
         nicknameTextView.visibility = View.VISIBLE
+//      TO-DO : Make edit text line invisible
+        editText.background = null
 
     }
     private fun updateNickname (view: View) {
         val editText = findViewById<EditText>(R.id.nickname_edit)
         val doneButton = findViewById<Button>(R.id.done_button)
         editText.visibility = View.VISIBLE
+//      TO-DO : Make edit text line invisible
+        editText.background = null
         doneButton.visibility = View.VISIBLE
         view.visibility = View.GONE
     }
